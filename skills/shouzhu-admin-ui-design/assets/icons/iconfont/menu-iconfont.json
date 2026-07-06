@@ -1,0 +1,93 @@
+{
+  "id": "5202843",
+  "name": "menu-icons",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "47967674",
+      "name": "首页选中",
+      "font_class": "shouyexuanzhong",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "47967673",
+      "name": "机械库选中",
+      "font_class": "jixiekuxuanzhong",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "47967672",
+      "name": "设备仪器库选中",
+      "font_class": "shebeiyiqikuxuanzhong",
+      "unicode": "e6dc",
+      "unicode_decimal": 59100
+    },
+    {
+      "icon_id": "47967671",
+      "name": "设备仪器库未选中",
+      "font_class": "shebeiyiqikuweixuanzhong",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    },
+    {
+      "icon_id": "47967670",
+      "name": "人员库选中",
+      "font_class": "renyuankuxuanzhong",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "47967669",
+      "name": "项目库未选中",
+      "font_class": "xiangmukuweixuanzhong",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "47967667",
+      "name": "项目库选中",
+      "font_class": "xiangmukuxuanzhong",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    },
+    {
+      "icon_id": "47967666",
+      "name": "机械库未选中",
+      "font_class": "jixiekuweixuanzhong",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "47967668",
+      "name": "首页未选中",
+      "font_class": "shouyeweixuanzhong",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "47967664",
+      "name": "企业库选中",
+      "font_class": "qiyekuxuanzhong",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "47967665",
+      "name": "人员库未选中",
+      "font_class": "renyuankuweixuanzhong",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "47967663",
+      "name": "企业库未选中",
+      "font_class": "qiyekuweixuanzhong",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "首筑后台设计规范"
+  short_description: "首筑后台 Vue3+Element Plus 页面规范"
+  default_prompt: "Use $shouzhu-admin-ui-design to build or review a Shouzhu admin page that matches the approved design system."
