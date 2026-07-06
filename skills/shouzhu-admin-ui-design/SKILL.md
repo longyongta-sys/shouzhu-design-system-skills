@@ -55,17 +55,19 @@ Only read the component style skills that match the visible components in the ta
 5. Apply the concrete structure, sizing, state, and Element Plus override rules from the relevant component style skills; do not rely on Element Plus defaults when Shouzhu specifies an override.
 6. If a needed Element Plus component has no Shouzhu-specific style skill yet, use the Element Plus default component style and behavior. Do not invent custom Shouzhu styling for that undefined component.
 7. Use the iconfont mappings in `../shouzhu-icon-style/SKILL.md` before drawing, importing, or inventing a new same-meaning icon.
-8. Verify selected, hover, disabled, required, status, pagination, and responsive states.
-9. Ensure the browser page itself does not scroll; long content must scroll inside the appropriate panel, table, dialog body, or content region.
-10. Run available type/build checks for implementation tasks.
-11. Perform a visual self-audit after the page is complete: inspect whether spacing, colors, typography, alignment, component states, scrolling, and responsive behavior are abnormal or inconsistent with the references.
-12. If the self-audit finds any mismatch or visual anomaly, modify the page yourself and repeat the audit before final response.
-13. Use the checklist before final response.
+8. For implementation tasks, organize pages by feature module and split page views, child components, API access, state, constants, and utilities into separate files when they represent separate responsibilities.
+9. Verify selected, hover, disabled, required, status, pagination, and responsive states.
+10. Ensure the browser page itself does not scroll; long content must scroll inside the appropriate panel, table, dialog body, or content region.
+11. Run available type/build checks for implementation tasks.
+12. Perform a visual self-audit after the page is complete: inspect whether spacing, colors, typography, alignment, component states, scrolling, and responsive behavior are abnormal or inconsistent with the references.
+13. If the self-audit finds any mismatch or visual anomaly, modify the page yourself and repeat the audit before final response.
+14. Use the checklist before final response.
 
 ## Non-Negotiables
 
 - Use Vue 3 + Element Plus patterns by default.
 - Use the approved token values exactly unless the user changes the design system.
+- Functional modules must follow maintainable development structure: do not put all pages, all business logic, all API calls, or all reusable UI into one file; split files by feature module and responsibility.
 - The admin shell layout is locked: fixed `200px` left primary menu, fixed `64px` topbar, `16px` app-main padding, white `16px` radius workspace, and internal scrolling only.
 - The left primary menu style is locked: do not change its width, brand block, spacing, selected state, hover state, bottom system management action, or return-home action unless the design system itself is explicitly being updated.
 - Do not create marketing or landing-page layouts for admin pages.

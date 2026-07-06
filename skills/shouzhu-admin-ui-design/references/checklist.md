@@ -47,6 +47,14 @@ Use this checklist before final handoff for build, modification, and review task
 - Data-list and table pages fill the available `.system-content` width.
 - Responsive layout does not introduce horizontal scrolling.
 
+## Development Structure
+
+- Functional modules are split by feature and responsibility instead of being placed into one large file.
+- A page does not contain all business logic, API calls, reusable UI, constants, dialogs, tables, and forms in a single `.vue`, `.ts`, or `.js` file.
+- Complex pages split search/filter areas, tables/lists, dialogs, detail panels, approval flows, upload areas, and complex action groups into local components or module files when appropriate.
+- API calls, constants, option lists, mapping dictionaries, status definitions, and utility functions are separated when they are reused or make the page hard to scan.
+- File organization follows existing project conventions, or uses a feature-module structure such as `views/<feature>/index.vue`, `components/`, `api/`, `constants/`, `types/`, and `utils/`.
+
 ## Components
 
 - Components with approved Shouzhu style skills follow their specific skills.
