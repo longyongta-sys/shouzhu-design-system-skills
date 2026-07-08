@@ -13,6 +13,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-jiechu:before {
+  content: "\e6e2";
+}
+
+.icon-jilu:before {
+  content: "\e6e3";
+}
+
 .icon-delete:before {
   content: "\e6d9";
 }

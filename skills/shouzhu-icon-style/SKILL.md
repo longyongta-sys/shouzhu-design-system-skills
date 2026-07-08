@@ -63,7 +63,7 @@ Examples:
 
 Project id: `5202837`.
 
-Debug CSS: `https://at.alicdn.com/t/c/font_5202837_ca7us9jnh7n.css?t=1782812141313`.
+Debug CSS: `https://at.alicdn.com/t/c/font_5202837_5wa41wvj2w4.css?t=1783478338406`.
 
 Use action icons for table row actions, toolbar actions, icon-only operation buttons, and operation buttons inside dialogs.
 
@@ -71,6 +71,8 @@ Use action icons for table row actions, toolbar actions, icon-only operation but
 - Delete / remove: `sz-action-iconfont icon-delete`.
 - Download / export: `sz-action-iconfont icon-download`.
 - Edit / modify: `sz-action-iconfont icon-edit`.
+- Release / unbind /解除: `sz-action-iconfont icon-jiechu`.
+- Record / log /记录: `sz-action-iconfont icon-jilu`.
 - Reset password: `sz-action-iconfont icon-reset-password`.
 - View / detail / preview: `sz-action-iconfont icon-view`.
 

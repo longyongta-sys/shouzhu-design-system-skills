@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "",
+      "name": "jiechu",
+      "font_class": "jiechu",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "",
+      "name": "jilu",
+      "font_class": "jilu",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
       "icon_id": "47967472",
       "name": "delete",
       "font_class": "delete",
